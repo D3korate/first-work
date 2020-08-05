@@ -2,18 +2,16 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    color: #fff;
     font-size: 15px;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
-}
-
-.header {
-    background-color: #1326CE;
-    padding: 77px 0 173px;
 }
 
 .container {
@@ -21,47 +19,120 @@ a {
     margin: 0 auto;
 }
 
+.header {
+    background: #1326CE;
+    color: #fff;
+    padding: 77px 0 175px 0;
+}
+
 .nav {
     display: flex;
     align-items: center;
 }
 
-.nav__logo {
+.logo {
     display: block;
 }
 
-.nav__mail {
-    display: block;
+.mail {
+    color: #fff;
     margin-left: auto;
+    display: block;
 }
 
-.dream__text {
+.dream {
     text-transform: uppercase;
-    font-size: 80px;
     font-weight: 800;
-    padding-top: 157px;
+    margin-top: 157px;
+    font-size: 80px;
 }
 
-.family__avatars {
-    width: 73px;
-    margin-right: 29px;
+.family {
+    margin: 0 26px 0 0;
 }
 
-.chill {
+.family__item {
+    margin-right: 26px;
+}
+
+.sale-site {
     width: 510px;
-    height: 148px;
     background: #0E20BF;
     border-radius: 10px;
     margin-top: 40px;
+    height: 148px;
 }
 
-.chill__text {
-    padding: 26px 37px 0 26px;
+.wrapper {
+    padding: 19px 37px 29px 26px;
+}
+
+.sale-site__item {
     font-size: 18px;
-    font-weight: 700;
-    width: 447px;
 }
 
-.chill__show {
-  padding: 0 63px 29px 26px;  
+.skills__table {
+    border-collapse: collapse;
+}
+
+.skills__text {
+    margin-top: 128px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.skills__cell {
+    border: 1px solid black;
+    text-align: center;
+    padding: 17px 0;
+    width: 20%;
+}
+
+.skills__cell_head {
+    font-weight: 800;
+    font-size: 16px 0;
+    text-transform: uppercase;
+    background: #E8E8E8;
+}
+
+.target {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 148px;
+}
+
+.target__item {
+    width: 273px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 114px 30px 136px;
+}
+
+.target__index {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px ;
+    margin: 0 auto;
+}
+
+.target__index_green {
+    background: #3AA629;
+}
+
+.target__index_orange {
+    background: #FF8038;
+}
+
+.target__index_purple {
+    background: #903EF9;
+}
+
+.target__index_pink {
+    background: #F93E98;
 }
