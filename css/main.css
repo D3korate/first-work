@@ -30,14 +30,21 @@ a {
     align-items: center;
 }
 
-.logo {
+.nav__logo {
     display: block;
 }
 
-.mail {
+.nav__mail {
     color: #fff;
     margin-left: auto;
     display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+    -webkit-transition: 1s ease;
+}
+
+.nav__mail:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    transition: 1s;
 }
 
 .dream {
